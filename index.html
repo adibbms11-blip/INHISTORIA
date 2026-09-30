@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4b4a2e">
+    <meta name="description" content="InHistoria — graduation photography and visual stories.">
+    <title>InHistoria</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================================
+         SITE NAVIGATION
+         The navigation is rendered by app.js so it stays identical
+         on Home and Through Our Lens.
+         ============================================================ -->
+    <div id="site-header"></div>
+
+    <!-- Invisible area at the very top used to trigger the navbar. -->
+    <div class="nav-trigger" id="navTrigger" aria-hidden="true"></div>
+
+    <!-- ============================================================
+         PAGE CONTENT
+         JavaScript renders the current page inside this element.
+         ============================================================ -->
+    <main id="app"></main>
+
+    <!-- ============================================================
+         FLOATING WHATSAPP
+         Change the URL in CONFIG inside app.js.
+         ============================================================ -->
+    <a
+        class="floating-wa"
+        id="floatingWa"
+        href="https://wa.me/6289500000000"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Chat on WhatsApp"
+    >
+        <span id="floatingWaIcon" aria-hidden="true"></span>
+    </a>
+
+    <!-- Main JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
